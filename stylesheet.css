@@ -14,7 +14,10 @@ a:hover {
   background-color: #fff;
   border: 1px solid #fff;
 }
-
+.bg-1 { 
+      background-color: #ffdab3;
+      color: #ffffff;
+  }
 
 /*
  * Base structure
