@@ -17,6 +17,9 @@ a:hover {
   border: 1px solid #fff;
 }
 
+.nav>li.logo>a:hover, .nav>li.logo>a:focus{
+  background-color: transparent;
+}
 
 /*
  * Base structure
