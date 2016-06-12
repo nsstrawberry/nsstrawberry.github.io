@@ -1,17 +1,4 @@
 
-.bg-2 {
-background-color: #ffcccc;
-} 
-
-.bg-3 {
-background-color: #ffff99;
-}
-
-.bg-4 {
-background-color: #ffcc99;    
-}
-
-
 a,
 a:focus,
 a:hover {
@@ -85,8 +72,6 @@ body {
  * Header
  */
 
-
-
 #navbar-primary .navbar-nav { 
 //  background: #ededed;
   width: 100%;
@@ -101,8 +86,6 @@ body {
   }
 }
 
-
-
         .nav a{
             color: #1a1a1a ;
             font-size: 1.2em ;
@@ -110,48 +93,9 @@ body {
             font-family:notokr-light;
             text-shadow:    none;
             letter-spacing: 0.5em;
-            
-
         }
 
 
-/*
- * Cover
- */
-
-.cover {
-  padding: 0 20px;
-}
-.cover .btn-lg {
-  padding: 10px 20px;
-  font-weight: bold;
-}
-
-
-/*
- * Footer
- */
-
-.mastfoot {
-  color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
-}
-
-
-/*
- * Affix and center
- */
-
-@media (min-width: 768px) {
-  /* Pull out the header and footer */
-  .masthead {
-    position: fixed;
-    top: 0;
-  }
-  .mastfoot {
-    position: fixed;
-    bottom: 0;
-  }
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
@@ -171,4 +115,3 @@ body {
     width: 700px;
   }
 } 
-
