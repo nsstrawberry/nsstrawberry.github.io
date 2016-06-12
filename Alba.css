@@ -1,3 +1,5 @@
+@import url("https://googledrive.com/host/0BxmAw3HA4YGCfk5lRk1WVjhQWVRHRldCVEw0TU1qMHhvNEdfM1E0cjZ1Z2ZHRDFfcWRVSDA/notokr-light.css");
+
 
 a,
 a:focus,
@@ -13,6 +15,13 @@ a:hover {
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
+}
+
+.nav>li.logo>a:hover, .nav>li.logo>a:focus{
+  background-color: transparent;
+}
+.nav>li.active>a:hover, .nav>li.active>a:focus{
+  background-color: transparent;
 }
 
 
@@ -32,7 +41,7 @@ body {
   height: 100%;
   background-color: #ffdab3;
   color: #fff;
-  text-align: center;
+  text-align: left;
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
  
 }
@@ -64,47 +73,35 @@ body {
 /*
  * Header
  */
-.masthead-brand {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
 
-.masthead-nav > li {
-  display: inline-block;
-}
-.masthead-nav > li + li {
-  margin-left: 20px;
-}
-.masthead-nav > li > a {
-  padding-right: 0;
-  padding-left: 0;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.95);
-  border-bottom: 2px solid transparent;
-}
-.masthead-nav > li > a:hover,
-.masthead-nav > li > a:focus {
-  background-color: transparent;
-  border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255,255,255,.25);
-}
-.masthead-nav > .active > a,
-.masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-}
 
-@media (min-width: 768px) {
-  .masthead-brand {
-    float: left;
-  }
-  .masthead-nav {
-    float: right;
+
+#navbar-primary .navbar-nav { 
+//  background: #ededed;
+  width: 100%;
+  text-align: center;
+  > li {
+    display: inline-block;
+    float: none;
+    > a {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
   }
 }
+
+
+
+        .nav a{
+            color: #1a1a1a ;
+            font-size: 1.2em ;
+             
+            font-family:notokr-light;
+            text-shadow:    none;
+            letter-spacing: 0.5em;
+            
+
+        }
 
 
 /*
@@ -162,4 +159,4 @@ body {
   .cover-container {
     width: 700px;
   }
-}
+} 
