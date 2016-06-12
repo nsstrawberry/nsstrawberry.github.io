@@ -1,0 +1,23 @@
+﻿..
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Mon Jun 13 02:34:58 2016 +0900
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   Alba.css
+#	new file:   Alba.html
+#	modified:   Thumbs.db
+#	modified:   _2.jpg
+#	modified:   index.html
+#	new file:   sangeun.html
+#	new file:   shin.css
+#	new file:   shin.html
+#	new file:   "\353\224\270\352\270\260 \353\237\260\353\204\210.jpg"
+#	new file:   "\354\262\264\355\227\230.jpg"
+#
+
