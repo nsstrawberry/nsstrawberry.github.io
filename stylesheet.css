@@ -17,10 +17,10 @@ a:hover {
   border: 1px solid #fff;
 }
 
-.navbar-primary>li.logo>a:hover, .nav>li.logo>a:focus{
+.nav>li.logo>a:hover, .nav>li.logo>a:focus{
   background-color: transparent;
 }
-.navbar-primary>li.active>a:hover, .nav>li.active>a:focus{
+.nav>li.active>a:hover, .nav>li.active>a:focus{
   background-color: transparent;
 }
 
