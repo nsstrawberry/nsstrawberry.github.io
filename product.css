@@ -1,24 +1,5 @@
 
 
-/*레이아웃*/
-div#left {
-  width: 200px ;
-  height: 700px;
-}
-
-div#content {
-  width : 600px;
-  height: 700px;
-}
-
-div#right {
-  width : 200px;
-  height: 700px;
-}
-
-
-
-
 a,
 a:focus,
 a:hover {
